@@ -5,10 +5,10 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="/2025/03/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2025/03/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <link href="/2025/03/03/hexo%E4%BC%98%E5%8C%96/"/>
+    <url>/2025/03/03/hexo%E4%BC%98%E5%8C%96/</url>
     
-    <content type="html"><![CDATA[<h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="hexo博客优化"><a href="#hexo博客优化" class="headerlink" title="hexo博客优化"></a>hexo博客优化</h1><h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>hexo默认使用的是landscape，可以自行切换主题，本次切换成fluid</p><ul><li>安装</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm install --save hexo-theme-fluid<br></code></pre></td></tr></table></figure><ul><li>在博客目录下创建<br>_config.fluid.yml，将主题的 <a href="https://github.com/fluid-dev/hexo-theme-fluid/blob/master/_config.yml">_config.yml</a> 内容复制进去。</li><li>编辑配置文件</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">vim _config.yml<br></code></pre></td></tr></table></figure><p>将主题设置为fluid，同时指定语言</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs text">theme: fluid  <br>language: zh-CN  <br></code></pre></td></tr></table></figure><ul><li>查看效果<br><img src="/img.png" alt="img.png"></li></ul>]]></content>
     
     
     
